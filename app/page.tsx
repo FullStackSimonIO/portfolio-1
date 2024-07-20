@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 
 import { FloatingNav } from "@/components/ui/FloatingNav";
+import RecentProjects from "@/components/RecentProjects";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <div className="max-w-7xl w-full">
         <Hero />
         <Grid />
+        <RecentProjects />
       </div>
     </main>
   );
