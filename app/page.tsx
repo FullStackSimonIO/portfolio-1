@@ -4,10 +4,13 @@ import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
+import Navigation from "@/components/Navbar";
+import { FloatingNav } from "@/components/ui/FloatingNav";
 
 const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+      <FloatingNav navItems={navItems} className="top-10 " />
       <div className="max-w-7xl w-full">
         <Hero />
         <Grid />
