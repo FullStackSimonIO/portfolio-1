@@ -4,7 +4,7 @@ import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
-import Navigation from "@/components/Navbar";
+
 import { FloatingNav } from "@/components/ui/FloatingNav";
 
 const Home = () => {
