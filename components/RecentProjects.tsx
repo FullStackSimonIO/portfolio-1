@@ -9,8 +9,8 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        SMALL SELECTION OF MY <br />
+        <span className="text-purple">RECENT PROJECTS</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -32,7 +32,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 object-cover object-center w-full h-full rounded-3xl"
                 />
               </div>
 
@@ -41,7 +41,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-5"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
@@ -67,7 +67,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    LIVE SITE
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>

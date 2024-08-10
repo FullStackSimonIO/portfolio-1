@@ -11,6 +11,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import RecentProjects from "@/components/RecentProjects";
 import Approach from "@/components/Approach";
 import Footer from "@/components/ui/Footer";
+import TechStack from "@/components/TechStack";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <Grid />
         <RecentProjects />
         <Clients />
+        <TechStack />
         <Experience />
         <Approach />
         <Footer />

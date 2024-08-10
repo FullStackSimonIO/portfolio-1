@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Cyber Security Engineer with a passion for Web Development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building multiple AI Startups",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,10 +72,16 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    title: "Fit-Mit-Mary",
+    des: "A small business Website for a friend of mine. Using Next.js, Tailwind CSS, TypeScript. Hosted on Vercel. Integrated some analysis tools for SEO optimization like Google Analytics.",
+    img: "/fit-mit-mary.png",
+    iconLists: [
+      "/next.svg",
+      "/react.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/vercel.svg",
+    ],
     link: "https://github.com/adrianhajdin?tab=repositories",
   },
   {
@@ -140,33 +146,58 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+
+    name: "ReactJS",
+    nameImg: "/reactName.svg",
+    img: "/reactLogo.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "NextJS",
+    img: "/nextLogo.svg",
+    nameImg: "/nextName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "TailwindCSS",
+    img: "/tailwindLogo.svg",
+    nameImg: "/tailwindName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "TypeScript",
+    img: "/typescriptLogo.svg",
+    nameImg: "/typescriptName.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Clerk",
+    img: "/clerkLogo.svg",
+    nameImg: "/clerkName.svg",
+  },
+  {
+    id: 6,
+    name: "ThreeJS",
+    img: "/threeLogo.svg",
+    nameImg: "/threeName.svg",
+  },
+  {
+    id: 7,
+    name: "MongoDB",
+    img: "/mongoLogo.svg",
+    nameImg: "/mongoName.svg",
+  },
+  {
+    id: 8,
+    name: "Appwrite",
+    img: "/app.svg",
+    nameImg: "/appwriteName.svg",
+  },
+  {
+    id: 9,
+    name: "Vercel",
+    img: "/vercelLogo.svg",
+    nameImg: "/vercelName.svg",
   },
 ];
 
