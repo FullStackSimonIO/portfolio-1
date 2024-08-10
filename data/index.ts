@@ -199,6 +199,24 @@ export const companies = [
     img: "/vercelLogo.svg",
     nameImg: "/vercelName.svg",
   },
+  {
+    id: 10,
+    name: "Framer Motion",
+    img: "/framerLogo.svg",
+    nameImg: "/framerName.svg",
+  },
+  {
+    id: 11,
+    name: "Sentry",
+    img: "/sentryLogo.svg",
+    nameImg: "/sentryName.svg",
+  },
+  {
+    id: 11,
+    name: "Zod",
+    img: "/zodLogo.svg",
+    nameImg: "/zodName.svg",
+  },
 ];
 
 export const workExperience = [
